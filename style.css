@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(185, 181, 174);
+    margin: 0;
+
+}
+
+.vrsek {
+    background-color: #1F2937;
+    color: whitesmoke;
+    /* display: flex; */
+
+    height: 200px;
+    margin: 0 400px;
+    padding: 10px 200px;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between  ;
+
+    margin-bottom: 10px;
+
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+
+}
+
+.content {
+    display: flex;
+    flex: auto;
+    /* max-width: 300px; */
+
+
+}
