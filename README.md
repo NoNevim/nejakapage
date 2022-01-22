@@ -1,1 +1,1 @@
-# nejakapage
+Page na otestovani hustejch skillz s html a css.
