@@ -1,38 +1,84 @@
 body{
-    background-color: rgb(185, 181, 174);
+    background-color: black;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .vrsek {
     background-color: #1F2937;
-    color: whitesmoke;
-    /* display: flex; */
-
-    height: 200px;
-    margin: 0 400px;
-    padding: 10px 200px;
+    height: auto;
+    min-height: 500px;
+    margin: 0 200px;
+    padding: 20px 200px;
    
 }
 
 .header {
     display: flex;
     justify-content: space-between  ;
-
-    margin-bottom: 10px;
-
+    margin-bottom: 130px;
 }
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 1000;
+}
+
+.links,
+ .regulartext {
+    font-size: 18px;
+    color: #E5E7EB;
+ }
 
 .links {
     display: flex;
     gap: 20px;
+}
 
+.regulartext {
+    margin-bottom: 20px;
 }
 
 .content {
-    display: flex;
-    flex: auto;
+    display: flex; 
     /* max-width: 300px; */
+    gap: 40px;
+    flex-wrap: wrap;
+}
 
+.titulek {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    
+
+}
+
+.nevim {
+    flex: 1;
+}
+
+/* .nevim div{
+    margin-bottom: 10px;
+} */
+
+
+
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 35px;
+    border: 0;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+img {
+    width: 400px;
+    height: 250px;
 
 }
