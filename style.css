@@ -5,14 +5,25 @@ body{
 
 }
 
+.vrsek,
+.prostredek {
+    height: auto;
+    margin: 0 200px;
+}
+
 .vrsek {
     background-color: #1F2937;
-    height: auto;
-    min-height: 500px;
-    margin: 0 200px;
+    min-height: 500px;   
     padding: 20px 200px;
-   
 }
+
+.prostredek {
+    background-color: white;
+    min-height: 350px;
+    text-align: center;
+    padding: 40px 200px ;
+}
+
 
 .header {
     display: flex;
@@ -81,4 +92,34 @@ img {
     width: 400px;
     height: 250px;
 
+}
+
+.infotext {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.obdelnicek {
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    border-width: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    max-width: 150px;
 }
