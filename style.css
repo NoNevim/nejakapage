@@ -6,7 +6,8 @@ body{
 }
 
 .vrsek,
-.prostredek {
+.prostredek,
+.spodek {
     height: auto;
     margin: 0 200px;
 }
@@ -22,6 +23,18 @@ body{
     min-height: 350px;
     text-align: center;
     padding: 40px 200px ;
+}
+
+.spodek {
+    min-height: 200px;
+    background-color: #E5E7EB;
+    text-align: left;
+    padding: 100px 300px;
+
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+
 }
 
 
@@ -122,4 +135,13 @@ img {
 
 .grid div {
     max-width: 150px;
+}
+
+
+.author {
+    font-size: 26px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-top: 20px;
+    text-align: end;
 }
