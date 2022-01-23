@@ -7,7 +7,8 @@ body{
 
 .vrsek,
 .prostredek,
-.spodek {
+.spodek,
+.konec {
     height: auto;
     margin: 0 200px;
 }
@@ -20,21 +21,29 @@ body{
 
 .prostredek {
     background-color: white;
-    min-height: 350px;
+    /* min-height: 350px; */
     text-align: center;
     padding: 40px 200px ;
 }
 
 .spodek {
-    min-height: 200px;
+    /* min-height: 200px; */
     background-color: #E5E7EB;
     text-align: left;
     padding: 100px 300px;
-
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    vertical-align: middle;
+}
 
+.konec {
+    background-color: white;
+    padding: 40px 200px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
 }
 
 
@@ -101,6 +110,11 @@ button {
     font-size: 17px;
 }
 
+button.whitebutton {
+    border-width: 2px;      /* barva border neni treba zadavat, protoze prebira barvu objektu, tj color: white */
+    border-style: solid;
+}
+
 img {
     width: 400px;
     height: 250px;
@@ -145,3 +159,28 @@ img {
     margin-top: 20px;
     text-align: end;
 }
+
+.obalka {
+    background-color: #3882F6;
+    min-height: 150px;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    flex: 1;    /* aby se cela obalka roztahla na celou sirku, ktera je k dispozici */
+    justify-content: center;
+    column-gap: 200px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.whitebiggertext {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.whitetext {
+    color: white;
+    font-size: 18px;
+}
+
