@@ -8,7 +8,8 @@ body{
 .vrsek,
 .prostredek,
 .spodek,
-.konec {
+.konec,
+.footer {
     height: auto;
     margin: 0 200px;
 }
@@ -21,7 +22,7 @@ body{
 
 .prostredek {
     background-color: white;
-    /* min-height: 350px; */
+    min-height: 350px;
     text-align: center;
     padding: 40px 200px ;
 }
@@ -44,6 +45,14 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 200px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 18px;
 }
 
 
@@ -174,7 +183,7 @@ img {
 }
 
 .whitebiggertext {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
     color: white;
 }
@@ -184,3 +193,6 @@ img {
     font-size: 18px;
 }
 
+.grid div {
+    color: #1F2937;     /* zkouska dedicnosti :), da se cele smazat, nebo prepsat barvu */
+}
